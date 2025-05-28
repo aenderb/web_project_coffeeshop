@@ -1,3 +1,7 @@
+html {
+  /* com esse comando so clicar nos links internos a rolagem fica mais suave */
+  scroll-behavior: smooth;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -19,7 +23,7 @@
   background-color: #fff;
 
   background-image: url("../images/background_header.svg");
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,7 +84,8 @@
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
-  margin: 0 300px 0 0;
+  display: block;
+  margin: 0;
 }
 
 .header__description {
@@ -114,7 +119,7 @@
   padding: 0;
   border: 0;
   font-size: 16px;
-  color: #838383;
+  color: #6f6f6f;
   line-height: 16px;
 }
 
@@ -126,7 +131,7 @@
   font-size: 16px;
   line-height: 16px;
   align-content: flex-end;
-  color: #838383;
+  color: #6f6f6f;
 }
 
 .header__footer-paragraph {
@@ -140,4 +145,67 @@
   min-height: 720px;
   max-height: 800px;
   background-color: #0a2850;
+  background-image: url("../images/background_recipes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin: 0;
+  margin-left: 80px;
+  padding-top: 100px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.recipes__subtitle {
+  max-width: 438px;
+  margin: 0;
+  margin-left: 80px;
+  padding-top: 24px;
+  color: #fff;
+  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__videos {
+  padding-top: 80px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.recipes__video-item {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.iframe {
+  width: 480px;
+  height: 273px;
+  border: 0;
+}
+
+.recipes__video-item-footer {
+  margin: 0;
+  border: 0;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipes__video-item-footer-description {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
