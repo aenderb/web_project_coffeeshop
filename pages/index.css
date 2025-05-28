@@ -134,7 +134,7 @@ html {
   color: #6f6f6f;
 }
 
-.header__footer-paragraph {
+.header__paragraph {
   margin: 0;
   padding: 0;
   border: 0;
@@ -186,7 +186,7 @@ html {
   padding: 0;
 }
 
-.iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: 0;
