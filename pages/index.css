@@ -63,7 +63,8 @@ html {
 
 .header__content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
 }
 
 .header__title {
@@ -102,8 +103,9 @@ html {
 .header__image {
   max-width: 646px;
   max-height: 568px;
-  margin-right: 5px;
   margin-top: 48px;
+  position: absolute;
+  right: 5px;
 }
 
 .header__footer {
