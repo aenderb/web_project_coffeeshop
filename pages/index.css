@@ -207,7 +207,7 @@ html {
 }
 
 .reservation__title {
-  margin: 0 auto;
+  margin: 0 auto 80px;
   padding-top: 100px;
   display: flex;
   justify-content: center;
@@ -220,7 +220,7 @@ html {
 
 .reservation__form {
   max-width: 385px;
-  margin: 80px auto 120px;
+  margin: 0 auto 120px;
 }
 
 .form__fieldset {
