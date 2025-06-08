@@ -28,7 +28,6 @@
       name="keywords"
       content="Biblioteca Triple Peaks, receitas de café, preparo de café especial, métodos de preparo de café, espresso perfeito"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
   </head>
@@ -166,7 +165,7 @@
               </button>
               <label
                 for="form__checkbox"
-                class="form__label form__label-checkbox"
+                class="form__label form__checkbox-centered"
               >
                 <input
                   type="checkbox"
@@ -184,7 +183,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo da cafeteria Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Mídia Social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="icone de facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="icone do instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Aender Binoto</p>
+      </footer>
     </div>
   </body>
 </html>
