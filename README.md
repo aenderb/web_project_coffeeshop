@@ -12,5 +12,5 @@ Tecnologias utilizadas HTML + CSS
     - como incluir Google Fonts
     - Metodologia BEM (CSS + Arquivos)
   
-O formulario contido nesse projeto ainda não é enviado a lugar nenhum, estou ansioso para aprender as próximas estapas como por exemplo jaascript e enviar esse form a um servidor e gravar em banco de dados.
+O formulario contido nesse projeto ainda não é enviado a lugar nenhum. Estou ansioso para aprender as próximas etapas do treinamento, como por exemplo javascript, para então poder enviar esse form a um servidor e gravar em banco de dados.
 
